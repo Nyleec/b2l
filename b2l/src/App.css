@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-div {
+  flex: 1;
+  height:calc(25vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+#top{
+  background-color: #f0f0f0;
+  top:0;
+}
+#left{
+  background-color: orange;
+  top:calc(25vh);
+}
+#right{
+  background-color: blue;
+  top:calc(50vh);
+}
+#bottom{
+  background-color: black;
+  top:calc(75vh);
+}
